@@ -19,4 +19,4 @@ SELECT * FROM employee WHERE reports_to = 2;
 
 --Count how many people live in Lethbridge.---------------------
 
-SELECT COUNT(first_name) FROM employee WHERE  city = 'Lethbridge';
+SELECT COUNT(*) FROM employee WHERE  city = 'Lethbridge';
